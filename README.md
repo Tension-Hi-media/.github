@@ -63,7 +63,6 @@
 <br/>
 <br/><h2>📂 패키지구조</h2>
 
-<details>
   <summary><b>프론트엔드 패키지 구조</b></summary>
   <div markdown="1">
 
@@ -85,9 +84,7 @@
 ```
     
   </div>
-</details>
 
-<details>
    <summary><b>백엔드 패키지 구조</b></summary>
   <div markdown="1">
 
@@ -123,7 +120,6 @@
 ```
     
   </div>
-</details>
 
 
 <br/>
