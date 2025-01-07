@@ -175,7 +175,7 @@ AI 모델이 CPU 환경 보다 GPU 환경에서 더 빠르게 돌아가다보니
 
 ## 🎃 웹 스크린 구성 및 기능
 
-| **기본** |  **날씨**  |  **감정 이미지 ** |
+| **기본** |  **날씨**  |  **감정이미지 ** |
 | :---:|:---:|:---:|
-| <img align="center" alt="기본" src="../img/기본.PNG" width="240px" /> | <img align="center" alt="날씨" src="../img/날씨.png" width="240px" /> | <img align="center" alt="감정" src="../img/감정.png" width="240px" /> |
+| <img align="center" alt="기본" src="../img/기본.PNG" width="240px" /> | <img align="center" alt="날씨" src="../img/날씨.PNG" width="240px" /> | <img align="center" alt="감정" src="../img/감정.PNG" width="240px" /> |
 
