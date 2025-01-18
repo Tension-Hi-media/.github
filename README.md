@@ -1,4 +1,4 @@
-# 🙂AI로 감정 ON🤣
+# 🙂 AI로 감정 ON 🤣
 
 ## 💻 `프로젝트 소개 & 개발 동기`
 
@@ -40,7 +40,6 @@
 ## ⚙️ `개발 환경`
 ![skills](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![skills](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
-![skills](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![skills](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![skills](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)
 
@@ -59,11 +58,13 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 <br/>
 <br/><h2>📂 패키지구조</h2>
 
-  <summary><b>프론트엔드 패키지 구조</b></summary>
+  <summery><b>프론트엔드 패키지 구조</b></summery>
   <div markdown="1">
 
 ```
@@ -85,7 +86,7 @@
     
   </div>
 
-   <summary><b>백엔드 패키지 구조</b></summary>
+   <summery><b>백엔드 패키지 구조</b><summery>
   <div markdown="1">
 
 ```
@@ -121,6 +122,8 @@
     
   </div>
 
+## 🎬 `아키텍처`
+<img align="center" alt="아키텍처" src="../img/아키텍처.PNG" width="500px" />  
 
 <br/>
 <br/><h2>📌 주요 기능</h2>
@@ -133,7 +136,7 @@
 텍스트 -> 감정 추출 -> 배경 이미지 생성
 - 자동으로 사용자가 입력한 텍스트를 분석하여 감정을 분류.
 - 감정에 적합한 배경 이미지를 시각화.
-- 
+  
 <br/><h3>3. 실시간 날씨 표시 기능 </h3>
 - 사용자의 위치 기반으로 실시간 날씨 정보 제공 (현재 날씨, 섭씨 온도)
 - 사용자의 지역에 있는 위치 기반의 날씨를 참조하여 배경 이미지 생성
@@ -173,5 +176,5 @@ AI 모델이 CPU 환경 보다 GPU 환경에서 더 빠르게 돌아가다보니
 
 | **기본** |  **날씨**  |  **감정이미지 ** |
 | :---:|:---:|:---:|
-| <img align="center" alt="기본" src="img/기본.PNG" width="240px" /> | <img align="center" alt="날씨" src="img/날씨.PNG" width="240px" /> | <img align="center" alt="감정" src="img/감정.PNG" width="240px" /> |
+| <img align="center" alt="기본" src="../img/기본.PNG" width="240px" /> | <img align="center" alt="날씨" src="../img/날씨.PNG" width="240px" /> | <img align="center" alt="감정" src="../img/감정.PNG" width="240px" /> |
 
