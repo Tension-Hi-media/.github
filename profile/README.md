@@ -121,7 +121,9 @@
 ```
     
   </div>
+**아키텍처**   
 
+| <img align="center" alt="아키텍처" src="../img/아키텍처.PNG" width="500px" />  
 
 <br/>
 <br/><h2>📌 주요 기능</h2>
