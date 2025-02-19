@@ -97,7 +97,7 @@
 
 
 ## 🎬 `아키텍처`
-<img align="center" alt="아키텍처" src="../img/아키텍처.PNG" width="500px" />  
+<img align="center" alt="아키텍처" src="../Img/아키텍처.PNG" width="500px" />  
 
 <br/>
 <br/><h2>📌 **주요 기능**</h2>
@@ -158,7 +158,9 @@ AI 모델이 CPU 환경 보다 GPU 환경에서 더 빠르게 돌아가다보니
 
 ## 🎃 웹 스크린 구성 및 기능
 
-| **메인페이지** |  **번역**  |  **용어집** |  **마이페이지** |
-| :---:|:---:|:---:|:---:|
-| <img align="center" alt="메인페이지" src="../img/메인페이지.PNG" width="240px" /> | <img align="center" alt="번역" src="../img/번역.PNG" width="240px" /> | <img align="center" alt="용어집" src="../img/용어집.PNG" width="240px" /> | <img align="center" alt="마이페이지" src="../img/마이페이지.PNG" width="240px" /> |
-
+| **메인페이지** |  **번역**  | 
+| :---:|:---:|
+| <img align="center" alt="메인페이지" src="../Img/메인페이지.PNG" width="400px" /> | <img align="center" alt="번역" src="../Img/번역.PNG" width="400px" /> |
+ | **용어집** |  **마이페이지** |
+| :---:|:---:|
+| <img align="center" alt="용어집" src="../Img/용어집.PNG" width="400px" /> | <img align="center" alt="마이페이지" src="../Img/마이페이지.PNG" width="400px" /> |
