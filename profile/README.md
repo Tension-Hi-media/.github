@@ -112,8 +112,7 @@
 <br/><h2>📌 주요 기능</h2>
 
 ### 🔍 번역 모델 Fine-Tuning  
-- **Base Model:** OpenAI GPT-4o-mini  
-- **Target Model:** LLAMA (1B / 3B / 8B)  
+- **Base Model:** LLAMA (1B / 3B / 8B)  
 - **목표:** 여행/관광 도메인 번역 정확도 향상  
 - **방법:**  
   - 문맥, 어휘 등을 고려한 **고품질 학습 데이터셋 수집 및 Fine-Tuning**  
