@@ -132,6 +132,14 @@
 - **One-shot & Few-shot 기법 활용**으로 다양한 입력 방식에 대응  
   - 사용자 입력 의도를 고려한 **다양한 응답 패턴 생성**  
 
+### 📊 학습 성능 평가 비교
+
+| 평가 지표                 | LLama 3.2-8B | Gorani -8B  |
+|--------------------------|-------------|---------|
+| **BERTScore (Precision)** | 0.5751      | 0.9589  |
+| **BERTScore (Recall)**    | 0.6706      | 0.9545  |
+| **BERTScore (F1 Score)**  | 0.6180      | 0.9567  |
+| **COMET Score**           | 0.5440      | 0.8516  |
 
 ---
 
@@ -163,7 +171,6 @@
 
 | **메인페이지** |  **번역**  | 
 | :---:|:---:|
-| <img align="center" alt="메인페이지" src="../Img/메인페이지.PNG" width="400px" /> | <img align="center" alt="번역" src="../Img/번역.PNG" width="400px" /> |
+| <img align="center" alt="메인페이지" src="../Img/메인페이지.PNG" width="450px" /> | <img align="center" alt="번역" src="../Img/번역.PNG" width="450px" /> |
  | **용어집** |  **마이페이지** |
-| :---:|:---:|
-| <img align="center" alt="용어집" src="../Img/용어집.PNG" width="400px" /> | <img align="center" alt="마이페이지" src="../Img/마이페이지.PNG" width="400px" /> |
+| <img align="center" alt="용어집" src="../Img/용어집.PNG" width="450px" /> | <img align="center" alt="마이페이지" src="../Img/마이페이지.PNG" width="450px" /> |
