@@ -85,7 +85,7 @@
     
   </div>
 
-  <summery><b>AI 패키지 구조</b></summery>
+  <summery><b>Middle Server 패키지 구조</b></summery>
   <div markdown="1">
 
 ```
@@ -95,6 +95,15 @@
     
   </div>
 
+  <summery><b>AI 패키지 구조</b></summery>
+  <div markdown="1">
+
+```
+📦src
+
+```
+    
+  </div>
 
 ## 🎬 `아키텍처`
 <img align="center" alt="아키텍처" src="../Img/아키텍처.PNG" width="500px" />  
