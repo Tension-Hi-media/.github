@@ -67,41 +67,191 @@
 
   <summery><b>프론트엔드 패키지 구조</b></summery>
   <div markdown="1">
-
+<details>
+  <summary>코드</summary>
+ 
 ```
 📦src
+ ┣ 📂Apis
+ ┃ ┣ 📜index.jsx
+ ┃ ┣ 📜TranslateAPI.jsx
+ ┃ ┗ 📜UserAPI.jsx
+ ┣ 📂assets
+ ┃ ┣ 📂css
+ ┃ ┃ ┣ 📂Common
+ ┃ ┃ ┃ ┣ 📜footer.css
+ ┃ ┃ ┃ ┣ 📜header.css
+ ┃ ┃ ┃ ┗ 📜modal.css
+ ┃ ┃ ┣ 📂Main
+ ┃ ┃ ┃ ┗ 📜main.css
+ ┃ ┃ ┣ 📂Translation
+ ┃ ┃ ┃ ┣ 📜glossary.css
+ ┃ ┃ ┃ ┣ 📜GlossaryModal.css
+ ┃ ┃ ┃ ┗ 📜translation.css
+ ┃ ┃ ┣ 📂User
+ ┃ ┃ ┃ ┣ 📜myPage.css
+ ┃ ┃ ┃ ┣ 📜myPageModal.css
+ ┃ ┃ ┃ ┗ 📜user.css
+ ┃ ┃ ┗ 📜all.css
+ ┃ ┣ 📂font
+ ┃ ┃ ┗ 📜SmoochSans-VariableFont_wght.ttf
+ ┃ ┗ 📂svg
+ ┃ ┃ ┣ 📜GitHub_Invertocat_Light.svg
+ ┃ ┃ ┗ 📜hf-logo.svg
+ ┣ 📂hooks
+ ┃ ┗ 📜useGlossaryManager.js
+ ┣ 📂pages
+ ┃ ┣ 📂Common
+ ┃ ┃ ┣ 📜Footer.jsx
+ ┃ ┃ ┣ 📜Header.jsx
+ ┃ ┃ ┗ 📜Modal.jsx
+ ┃ ┣ 📂Login
+ ┃ ┃ ┣ 📜GoogleLogin.jsx
+ ┃ ┃ ┣ 📜GoogleSuccess.jsx
+ ┃ ┃ ┣ 📜KakaoLogin.jsx
+ ┃ ┃ ┣ 📜KakaoSucess.jsx
+ ┃ ┃ ┣ 📜KakooCallBack.jsx
+ ┃ ┃ ┣ 📜Naver.jsx
+ ┃ ┃ ┗ 📜NaverSuccess.jsx
+ ┃ ┣ 📂Main
+ ┃ ┃ ┗ 📜main.jsx
+ ┃ ┣ 📂Translation
+ ┃ ┃ ┣ 📜Glossary.jsx
+ ┃ ┃ ┣ 📜GlossaryList.jsx
+ ┃ ┃ ┣ 📜GlossaryModal.jsx
+ ┃ ┃ ┣ 📜Translation.jsx
+ ┃ ┃ ┗ 📜WordPairEditor.jsx
+ ┃ ┗ 📂User
+ ┃ ┃ ┣ 📜MyPage.jsx
+ ┃ ┃ ┗ 📜MyPageModal.jsx
+ ┣ 📜App.js
+ ┣ 📜App.test.js
+ ┣ 📜index.css
+ ┣ 📜index.js
+ ┣ 📜logo.svg
+ ┣ 📜reportWebVitals.js
+ ┗ 📜setupTests.js
 
 ```
+</details>
+
+
     
   </div>
 
    <summery><b>백엔드 패키지 구조</b><summery>
   <div markdown="1">
 
+<details>
+  <summary>코드</summary>
+ 
 ```
-📦backend
-
+📦src
+├─main
+│  ├─java
+│  │  └─com
+│  │      └─tension
+│  │          └─gorani
+│  │              ├─auth
+│  │              │  ├─controller
+│  │              │  ├─dto
+│  │              │  ├─filter
+│  │              │  ├─handler
+│  │              │  └─service
+│  │              ├─common
+│  │              ├─companies
+│  │              │  ├─controller
+│  │              │  ├─domain
+│  │              │  │  ├─dto
+│  │              │  │  └─entity
+│  │              │  ├─repository
+│  │              │  └─service
+│  │              ├─config
+│  │              ├─translation
+│  │              │  ├─controller
+│  │              │  ├─DTO
+│  │              │  └─service
+│  │              └─users
+│  │                  ├─controller
+│  │                  ├─domain
+│  │                  │  ├─dto
+│  │                  │  └─entity
+│  │                  ├─repository
+│  │                  └─service
+│  └─resources
+└─test
+    └─java
+        └─com
+            └─tension
+                └─gorani
 ```
+</details>
     
   </div>
 
   <summery><b>Middle Server 패키지 구조</b></summery>
   <div markdown="1">
 
+<details>
+  <summary>코드</summary>
+ 
 ```
-📦src
+📦app
+ ┣ 📂models
+ ┃ ┣ 📜schemas.py
+ ┃ ┣ 📜translation.py
+ ┃ ┗ 📜__init__.py
+ ┣ 📂routes
+ ┃ ┣ 📜glossary_router.py
+ ┃ ┣ 📜openai.py
+ ┃ ┗ 📜translate.py
+ ┣ 📂services
+ ┃ ┣ 📜config.py
+ ┃ ┣ 📜openai_service.py
+ ┃ ┗ 📜translation_service.py
+ ┣ 📜celery_worker.py
+ ┗ 📜main.py
 
 ```
+</details>
     
   </div>
 
   <summery><b>AI 패키지 구조</b></summery>
   <div markdown="1">
 
+<details>
+  <summary>코드</summary>
+ 
 ```
-📦src
+📦app
+ ┣ 📂__pycache__
+ ┃ ┗ 📜main.cpython-312.pyc
+ ┣ 📂models
+ ┃ ┣ 📂__pycache__
+ ┃ ┃ ┣ 📜__init__.cpython-312.pyc
+ ┃ ┃ ┣ 📜llama.cpython-312.pyc
+ ┃ ┃ ┣ 📜schemas.cpython-312.pyc
+ ┃ ┃ ┗ 📜translation.cpython-312.pyc
+ ┃ ┣ 📜__init__.py
+ ┃ ┣ 📜llama.py
+ ┃ ┗ 📜schemas.py
+ ┣ 📂routes
+ ┃ ┣ 📂__pycache__
+ ┃ ┃ ┗ 📜translate.cpython-312.pyc
+ ┃ ┗ 📜translate.py
+ ┣ 📂services
+ ┃ ┣ 📂__pycache__
+ ┃ ┃ ┣ 📜MongoDB.cpython-312.pyc
+ ┃ ┃ ┣ 📜langGorani_service.cpython-312.pyc
+ ┃ ┃ ┣ 📜llama_service.cpython-312.pyc
+ ┃ ┃ ┗ 📜translation_service.cpython-312.pyc
+ ┃ ┣ 📜langGorani_service.py
+ ┃ ┗ 📜llama_service.py
+ ┗ 📜main.py
 
 ```
+</details>
     
   </div>
 
