@@ -273,7 +273,9 @@
   - 여행/관광 업계에서 자주 사용되는 핵심 용어 정리 및 번역  
   - 단순 번역이 아닌 **문맥을 고려한 다국어 매칭** 수행  
 - **각 단어에 대한 벡터 임베딩 값을 MongoDB에 저장**하여 빠르고 정확한 검색 성능 제공  
-  - **VectorStore 기반 빠른 검색 및 추천 시스템 적용**  
+** Hybrid_Search:**  
+  **Vector Search:** 임베딩 벡터 기반 유사도 검색 (vector_score) <br/>
+  **Text Search:** 키워드 기반 검색 (text_score)
 
 ### 📝 Prompt Engineering  
 - **명확한 지시어 적용**  
